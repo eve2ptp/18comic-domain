@@ -46,7 +46,7 @@ jobs:
           fi
 
           # 构建 YAML payload
-          OUTPUT_FILE="${{ github.workspace }}/18comic-domain/domain.txt"
+          OUTPUT_FILE="${{ github.workspace }}/domain.txt"
           mkdir -p "$(dirname "${OUTPUT_FILE}")"
 
           {
