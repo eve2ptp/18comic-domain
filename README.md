@@ -1,4 +1,4 @@
-**clash custom rules**
+**cronjob generating rule for clash**
 
 ```yaml
 rule-providers:
