@@ -1,0 +1,10 @@
+payload:
+  - '18comic.vip'
+  - '18comic.ink'
+  - 'jmcomic-zzz.one'
+  - 'jmcomic-zzz.org'
+  - 'jm18c-oec.cc'
+  - 'jm18c-oecclu.com'
+  - 'jm18c-oec.club'
+  - 'jm-88.cc/ZNPJam'
+  - 't.me/hcomic18'
