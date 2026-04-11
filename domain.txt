@@ -5,6 +5,6 @@ payload:
   - 'jmcomic-zzz.org'
   - 'jm18c-oec.cc'
   - 'jm18c-may.net'
-  - 'jm18c-may.cc'
+  - 'jm18c-may.club'
   - 'jm-88.cc/ZNPJam'
   - 't.me/hcomic18'
