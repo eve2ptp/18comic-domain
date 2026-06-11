@@ -5,6 +5,6 @@ payload:
   - 'jmcomic-zzz.org'
   - 'comic18j-yodo.cc'
   - 'comic18j-robo.net'
-  - 'comic18j-lodo.club'
+  - 'comic18j-lodo.net'
   - 'jm-88.cc/ZNPJam'
   - 't.me/hcomic18'
