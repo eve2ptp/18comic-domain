@@ -3,7 +3,7 @@ payload:
   - '18comic.ink'
   - 'jmcomic-zzz.one'
   - 'jmcomic-zzz.org'
-  - 'comic18j-codi.cc'
+  - 'comic18j-codi.me'
   - 'comic18j-yodo.club'
   - 'comic18j-codi.club'
   - 'jm-88.cc/ZNPJam'
