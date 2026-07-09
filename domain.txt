@@ -4,7 +4,7 @@ payload:
   - 'jmcomic-zzz.one'
   - 'jmcomic-zzz.org'
   - 'comic18j-codi.net'
-  - 'comic18j-yodo.club'
+  - 'comic18j-babu.cc'
   - 'comic18j-babu.club'
   - 'jm-88.cc/ZNPJam'
   - 't.me/hcomic18'
