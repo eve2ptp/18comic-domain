@@ -4,7 +4,7 @@ payload:
   - 'jmcomic-zzz.one'
   - 'jmcomic-zzz.org'
   - 'comic18j-rita.net'
-  - 'comic18j-rita.club'
+  - 'comic18j-bibi.me'
   - 'comic18j-bibi.cc'
   - 'jm-uu.cc/ZNPJam'
   - 't.me/hcomic18'
