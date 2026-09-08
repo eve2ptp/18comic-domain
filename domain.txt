@@ -3,7 +3,7 @@ payload:
   - '18comic.ink'
   - 'jmcomic-zzz.one'
   - 'jmcomic-zzz.org'
-  - 'comic18j-rita.net'
+  - 'comic18j-jjeg.cc'
   - 'comic18j-bibi.net'
   - 'comic18j-bibi.club'
   - 'jm-uu.cc/ZNPJam'
