@@ -35,8 +35,16 @@ jobs:
           # 提取所有匹配 [\w-]+\.\w+/?\w+ 的字符串（与 JmcomicText.analyse_jm_pub_html 正则一致）
           ALL_DOMAINS=$(echo "${HTML}" | grep -oE '[A-Za-z0-9_-]+\.[A-Za-z0-9]+(/[A-Za-z0-9]+)?' || true)
 
-          # 过滤：只保留含 'jm' 或 'comic' 的域名，去重，保留顺序
+          # 过滤：剔除 telegram 相关域名，只保留含 'jm' 或 'comic' 的域名，去重，保留顺序
           FILTERED=$(echo "${ALL_DOMAINS}" | awk '
+            {
+              host = tolower($0)
+              sub(/\/.*/, "", host)
+              if (host ~ /(^|[.])t[.]me$/ ||
+                  host ~ /(^|[.])tx[.]me$/ ||
+                  host ~ /(^|[.])tele[.]gs$/ ||
+                  host ~ /(^|[.])telegram([.]|$)/) next
+            }
             !seen[$0]++ && (/jm/ || /comic/) { print }
           ')
 
@@ -46,7 +54,7 @@ jobs:
           fi
 
           # 构建 YAML payload
-          OUTPUT_FILE="${{ github.workspace }}/domain.txt"
+          OUTPUT_FILE="${{ github.workspace }}/domain.yaml"
           mkdir -p "$(dirname "${OUTPUT_FILE}")"
 
           {
